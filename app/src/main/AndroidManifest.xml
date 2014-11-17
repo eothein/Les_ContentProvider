@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="be.hogent.dagboekapplicatie" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="be.hogent.dagboekapplicatie.SubmitEntryActivity"
+            android:label="@string/title_activity_submit_entry" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="be.hogent.dagboekapplicatie.DisplayDiaries" />
+        <activity
+            android:name="be.hogent.dagboekapplicatie.DisplayEntry"
+            android:label="@string/title_activity_display_entry" >
+        </activity>
+        <provider
+            android:authorities="be.hogent.dagboekapplicatie"
+            android:name=".DiaryContentProvider"/>
+    </application>
+
+</manifest>

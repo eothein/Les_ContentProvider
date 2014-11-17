@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Diary</string>
+    <string name="title_activity_submit_entry">Submit Diary Entry</string>
+    <string name="action_settings">Settings</string>
+    <string name="diary_title">Diary title</string>
+    <string name="content_title">Content</string>
+    <string name="submit">submit</string>
+    <string name="date_recorded">Date Recorded</string>
+    <string name="title_activity_display_entry">DisplayEntry</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
